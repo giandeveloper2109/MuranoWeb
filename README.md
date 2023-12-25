@@ -1,5 +1,5 @@
 # MuranoWeb
-<img src="https://github.com/giandeveloper2109/MuranoWeb/blob/main/src/assets/logoMurano.png?raw=true" alt="Descripción de la imagen" width="600" height="300" align="middle">
+<img src="https://github.com/giandeveloper2109/MuranoWeb/blob/main/src/assets/logoMurano.png?raw=true" alt="Descripción de la imagen" width="600" height="200" align="middle">
 ## Project setup
 
 ```
