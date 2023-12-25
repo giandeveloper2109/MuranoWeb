@@ -1,70 +1,41 @@
-# essentials
-
+# MuranoWeb
+<img src="https://github.com/giandeveloper2109/MuranoWeb/blob/main/src/assets/logoMurano.png?raw=true" alt="Descripción de la imagen" width="300" height="300" align="middle">
 ## Project setup
 
 ```
-# yarn
-yarn
-
 # npm
 npm install
-
-# pnpm
-pnpm install
-
-# bun
-bun install
-```
-
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# bun
-bun run dev
-```
-
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# bun
-bun run build
 ```
 
-### Lints and fixes files
+### Tecnologica Usadas
 
 ```
-# yarn
-yarn lint
+# Node.js Version : 20.10.0 LTS
+# Visual Studio Code
+# Gitbash & Github Desktop
+# Lenguaje de Programacion : Javascript
+# Front-end : Vue.js & Vuetify
+# Bootstrap
 
-# npm
-npm run lint
+```
+### Desarrolladores
+```
+# Remain Computers
 
-# pnpm
-pnpm lint
+```
+<img  src="https://github.com/giandeveloper2109/PenayFauraWebPage2023/blob/main/src/assets/logoRC.png?raw=true" alt="Remain Computers Logo" width="200" height="200" align="middle">
+<img  src="https://github.com/giandeveloper2109/PenayFauraWebPage2023/blob/main/src/assets/serviciosRC.png?raw=true" alt="Servicios Remain Computers" width="700" height="350" align="middle">
 
-# bun
-bun run lint
+#
 ```
 
-### Customize configuration
+# Desarrollador a cargo del Proyecto :
+GIANCARLO Joel ALVAREZ GALLARDO
+Soporte Técnico TI & Desarrollador de software y web
+soporte8@remaincomputers.com
+Cel: +51 997230674
+Lima-PERÚ
+```
 
-See [Configuration Reference](https://vitejs.dev/config/).
-# MuranoWeb
