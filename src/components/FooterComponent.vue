@@ -20,7 +20,7 @@
       <v-divider></v-divider>
   
       <div style="color: rgb(255, 209, 3);">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+        {{ new Date().getFullYear() }} — <strong>Inmobiliaria Murano Investment S.A.C </strong>
       </div>
     </v-footer>
   </template>

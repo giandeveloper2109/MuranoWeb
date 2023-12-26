@@ -1,11 +1,15 @@
 <template>
+    <v-sheet>
     <form @submit.prevent="submit">
+    <v-row>
+      <v-col>
       <v-text-field
         clearable
         v-model="name.value.value"
         :counter="10"
         :error-messages="name.errorMessage.value"
         label="Nombre"
+        prepend-icon="mdi-account"
       ></v-text-field>
   
       <v-text-field
@@ -14,13 +18,16 @@
         :counter="7"
         :error-messages="phone.errorMessage.value"
         label="Numero de celular"
+        prepend-icon="mdi-cellphone"
       ></v-text-field>
-  
+      </v-col>  
+      <v-col>
       <v-text-field
         clearable
         v-model="email.value.value"
         :error-messages="email.errorMessage.value"
         label="Correo"
+        prepend-icon="mdi-email"
       ></v-text-field>
       
       
@@ -30,7 +37,22 @@
         :counter="10"
         :error-messages="asunto.errorMessage.value"
         label="Asunto"
-      ></v-text-field>      
+        prepend-icon="mdi-card-account-mail"
+      ></v-text-field>
+    </v-col>
+    </v-row>
+      <v-textarea 
+            class="prepend-icon"
+            clearable
+
+            v-model="mensaje.value.value"
+            :counter="10"
+            :error-messages="mensaje.errorMessage.value"
+
+            label="Mensaje"
+            prepend-icon="mdi-message"
+            variant="solo-filled"
+        ></v-textarea>      
       
     <!--
   
@@ -54,6 +76,7 @@
         clear
       </v-btn>
     </form>
+</v-sheet>
   </template>
 
 <script setup>
@@ -63,7 +86,7 @@
   const { handleSubmit, handleReset } = useForm({
     validationSchema: {
       name (value) {
-        if (value?.length >= 2) return true
+        if (value?.length >= 3) return true
 
         return 'El nombre requiere mas de dos caracteres'
       },
@@ -87,12 +110,18 @@
 
         return 'Debe ser revisado.'
       },
+      mensaje (value) {
+        if (value?.length >= 10) return true
+
+        return 'El asunto debe tener mas de 9 digitos'
+      },
     },
   })
   const name = useField('name')
   const phone = useField('phone')
   const email = useField('email')
   const asunto = useField('asunto')
+  const mensaje = useField('mensaje')
   const checkbox = useField('checkbox')
 
 
@@ -103,6 +132,6 @@
 </script>  
 <style>
   .prepend-icon{
-    color: rgb(255, 209, 3);
+    color: rgb(0, 0, 0);
   }
 </style>
