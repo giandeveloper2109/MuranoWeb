@@ -1,12 +1,7 @@
 <template>
-        
+<v-responsive>
+    <h1 class="text-center"  style="color: #f4a414;">Contáctanos</h1>
 
-    <h1 class="text-center"  style="color: rgb(255, 209, 3);">Contactanos</h1>
-
-            
-        
-
-        
     <div>   
     <v-row>
         
@@ -22,6 +17,8 @@
         
     </v-row>
     </div> 
+    <v-divider :thickness="60" class="border-opacity-0"></v-divider>
+</v-responsive>
 </template>
   
 <script setup>

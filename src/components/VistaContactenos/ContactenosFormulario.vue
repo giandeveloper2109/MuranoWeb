@@ -1,14 +1,16 @@
 <template>
-    <v-card text=" "
-
+    <v-sheet
+        height="auto"
+        width="auto"
     >
-    <form @submit.prevent="submit">
+    <form @submit.prevent="submit" >
     <v-row>
       <v-col>
+        
       <v-text-field
         clearable
         v-model="name.value.value"
-        :counter="10"
+        :counter="30"
         :error-messages="name.errorMessage.value"
         label="Nombre"
         prepend-icon="mdi-account"
@@ -17,7 +19,7 @@
       <v-text-field
         clearable
         v-model="phone.value.value"
-        :counter="7"
+        :counter="30"
         :error-messages="phone.errorMessage.value"
         label="Numero de celular"
         prepend-icon="mdi-cellphone"
@@ -43,18 +45,33 @@
       ></v-text-field>
     </v-col>
     </v-row>
+    
       <v-textarea 
             class="prepend-icon"
             clearable
 
             v-model="mensaje.value.value"
-            :counter="10"
+            :counter="100"
             :error-messages="mensaje.errorMessage.value"
 
             label="Mensaje"
             prepend-icon="mdi-message"
             variant="solo-filled"
-        ></v-textarea>      
+        ></v-textarea>  
+    <v-divider :thickness="20" class="border-opacity-0"></v-divider>
+    <v-row class="align-center justify-center">
+      <v-btn
+        style="background-color: #f4a414;"
+        class="me-4"
+        type="submit"
+      >
+        Enviar
+      </v-btn>
+  
+      <v-btn @click="handleReset" style="background-color: #f4a414;">
+        Limpiar
+      </v-btn>
+    </v-row>
       
     <!--
   
@@ -67,18 +84,9 @@
         type="checkbox"
       ></v-checkbox>
     -->
-      <v-btn
-        class="me-4"
-        type="submit"
-      >
-        submit
-      </v-btn>
-  
-      <v-btn @click="handleReset">
-        clear
-      </v-btn>
+
     </form>
-    </v-card>
+    </v-sheet>
   </template>
 
 <script setup>

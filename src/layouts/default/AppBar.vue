@@ -9,28 +9,44 @@
     </div>
     <v-spacer></v-spacer>
     <div>
-      <v-btn to="/"  style="color: rgba(11, 31, 145, 0.772);">Home</v-btn>
+      <v-btn to="/"  style="color: rgb(10, 10, 50);">Home</v-btn>
     </div>
     <v-divider  :thickness="7" class="border-opacity-0" vertical></v-divider>
     <div>
-      <v-btn to="/contactanos" text style="color: rgba(11, 31, 145, 0.772);">Contactanos</v-btn>
+      <v-btn to="/contactanos" text style="color: rgb(10, 10, 50);">Contactanos</v-btn>
     </div>
     <v-divider :thickness="7" class="border-opacity-0" vertical></v-divider>
     <div>
-      <v-btn text style="color: rgba(11, 31, 145, 0.772);">Proyectos</v-btn>
+      <v-btn text style="color: rgb(10, 10, 50);">Proyectos</v-btn>
     </div>
     <v-divider :thickness="7" class="border-opacity-0" vertical></v-divider>
     <div>
-      <v-btn text style="color: rgba(11, 31, 145, 0.772);">Nosotros</v-btn>
+      <v-btn text style="color: rgb(10, 10, 50);">Nosotros</v-btn>
     </div>
     <v-divider :thickness="7" class="border-opacity-0" vertical></v-divider>
     <div>
-      <v-btn text style="color: rgba(11, 31, 145, 0.772);">Cotiza</v-btn>
+      <v-btn text style="color: rgb(10, 10, 50);">Cotiza</v-btn>
     </div>
     <v-divider :thickness="7" class="border-opacity-0" vertical></v-divider>
+    <div>
+      <v-img @click="redirectToWhatsApp" src="@/assets/whatsapp.png" width="40px" ></v-img>
+    </div>
+    <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
+    <div>
+      <v-img @click="redirectFacebook" src="@/assets/facebook.png" width="40px" ></v-img>
+    </div>
+    <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
   </v-app-bar>
 </template>
 
 <script setup>
-  //
+const redirectToWhatsApp = () => {
+  const phoneNumber = '51982010512';
+
+// Abre la ventana de WhatsApp con el número de teléfono.
+window.location.href = `https://wa.me/${phoneNumber}`;
+};
+const redirectFacebook = () => {
+window.location.href = `https://www.facebook.com/muranoinm`;
+};
 </script>
