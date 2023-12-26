@@ -1,7 +1,7 @@
 <template>
         
 
-    <h1 class="text-center"  style="color:  rgb(10, 10, 50);">Contactanos</h1>
+    <h1 class="text-center"  style="color: rgb(255, 209, 3);">Contactanos</h1>
 
             
         
@@ -14,8 +14,7 @@
             
             <ContatenosMediosDeComunicacion/>
         </v-col>
-        
-        <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
+    
         
         <v-col>
             <ContactenosFormulario/>

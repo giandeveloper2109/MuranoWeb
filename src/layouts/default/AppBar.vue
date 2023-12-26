@@ -9,7 +9,7 @@
     </div>
     <v-spacer></v-spacer>
     <div>
-      <v-btn to="/" text style="color: rgba(11, 31, 145, 0.772);">Home</v-btn>
+      <v-btn to="/"  style="color: rgba(11, 31, 145, 0.772);">Home</v-btn>
     </div>
     <v-divider  :thickness="7" class="border-opacity-0" vertical></v-divider>
     <div>
