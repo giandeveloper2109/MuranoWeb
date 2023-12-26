@@ -38,6 +38,14 @@
       <v-img @click="redirectFacebook" src="@/assets/facebook.png" width="40px" ></v-img>
     </div>
     <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
+    <div >
+      <v-img @click="redirectMail" src="@/assets/correo.png" width="40px" ></v-img>
+    </div>
+    <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
+    <div>
+      <v-img  @click="redirectPhone" src="@/assets/telefono.png" width="40px" ></v-img>
+    </div>
+    <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
   </v-app-bar>
 </template>
 
@@ -51,4 +59,11 @@ window.location.href = `https://wa.me/${phoneNumber}`;
 const redirectFacebook = () => {
 window.location.href = `https://www.facebook.com/muranoinm`;
 };
+const redirectMail = () =>{
+  window.location.href = `mailto:gianalvarezgallardo21@gmail.com`;
+};
+const redirectPhone = () =>{
+  window.location.href = `tel:074600993`;
+};
+
 </script>
