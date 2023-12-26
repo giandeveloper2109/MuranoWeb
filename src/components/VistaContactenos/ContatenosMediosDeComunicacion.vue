@@ -33,11 +33,14 @@
                         class="d-flex align-center justify-center" 
                     >
                     <v-row>
+                        <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
                             <v-col>
-                                <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
-                                <v-icon  icon="mdi mdi-whatsapp" color="green"></v-icon>
-                                <v-divider :thickness="10" class="border-opacity-0" vertical></v-divider>
-                                <span class="align-center justify-center"> +51 982 010 512</span>
+                                
+                                <v-img src="@/assets/whatsapp.png" width="40px"></v-img>
+                            </v-col>
+                            <v-divider class="border-opacity-0" vertical></v-divider>
+                            <v-col>
+                                <span > +51 982 010 512</span>
                             </v-col>
 
                         </v-row>

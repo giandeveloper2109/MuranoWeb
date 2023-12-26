@@ -16,6 +16,7 @@
       <v-btn to="/contactanos" text style="color: rgb(10, 10, 50);">Contactanos</v-btn>
     </div>
     <v-divider :thickness="7" class="border-opacity-0" vertical></v-divider>
+    <!--
     <div>
       <v-btn text style="color: rgb(10, 10, 50);">Proyectos</v-btn>
     </div>
@@ -27,6 +28,7 @@
     <div>
       <v-btn text style="color: rgb(10, 10, 50);">Cotiza</v-btn>
     </div>
+    -->
     <v-divider :thickness="7" class="border-opacity-0" vertical></v-divider>
     <div>
       <v-img @click="redirectToWhatsApp" src="@/assets/whatsapp.png" width="40px" ></v-img>
