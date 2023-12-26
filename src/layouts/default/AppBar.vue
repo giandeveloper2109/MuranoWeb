@@ -43,7 +43,7 @@
     </div>
     <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
     <div>
-      <v-img  @click="redirectPhone" src="@/assets/telefono.png" width="40px" ></v-img>
+      <v-img  @click="redirectPhone" src="@/assets/telefono.png" width="30px" ></v-img>
     </div>
     <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
   </v-app-bar>
@@ -60,7 +60,7 @@ const redirectFacebook = () => {
 window.location.href = `https://www.facebook.com/muranoinm`;
 };
 const redirectMail = () =>{
-  window.location.href = `mailto:gianalvarezgallardo21@gmail.com`;
+  window.location.href = `mailto:info@muranoin.com`;
 };
 const redirectPhone = () =>{
   window.location.href = `tel:074600993`;
