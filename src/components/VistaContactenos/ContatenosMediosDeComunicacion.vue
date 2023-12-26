@@ -1,7 +1,13 @@
 <template>
     <div>
-        <v-card text="Medios de comunicacion" max-height="auto" max-width="auto">
-
+        <v-card text=" " >
+            <div>
+                <v-img src="@/assets/logoMurano.png" max-height="100"></v-img>
+            </div>
+            <div>
+            
+            </div>
+            
         </v-card>
     </div>
 </template>

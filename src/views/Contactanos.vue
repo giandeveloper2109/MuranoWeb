@@ -1,8 +1,17 @@
 <template>
+        
 
+    <h1 class="text-center"  style="color:  rgb(10, 10, 50);">Contactanos</h1>
+
+            
+        
+
+        
+    <div>   
     <v-row>
         
         <v-col>
+            
             <ContatenosMediosDeComunicacion/>
         </v-col>
         
@@ -13,6 +22,7 @@
         </v-col>
         
     </v-row>
+    </div> 
 </template>
   
 <script setup>
@@ -21,4 +31,5 @@
 </script>
 
 <style>
+
 </style>

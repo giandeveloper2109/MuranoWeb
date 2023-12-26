@@ -1,5 +1,7 @@
 <template>
-    <v-sheet>
+    <v-card text=" "
+
+    >
     <form @submit.prevent="submit">
     <v-row>
       <v-col>
@@ -76,7 +78,7 @@
         clear
       </v-btn>
     </form>
-</v-sheet>
+    </v-card>
   </template>
 
 <script setup>

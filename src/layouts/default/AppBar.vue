@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="transparent" flat app class=" text-center d-flex flex-column">
+  <v-app-bar  flat app class=" text-center d-flex flex-column">
     <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
     <div>
       <router-link to="/">
