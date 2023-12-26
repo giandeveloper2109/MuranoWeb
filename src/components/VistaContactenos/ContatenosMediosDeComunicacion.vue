@@ -93,12 +93,33 @@
                     
                 </v-col>
 
+
+                <v-col class="d-flex align-center justify-center">
+                    <v-card  
+                        height="250"
+                        width="400"
+
+                        
+                    >
+                        <v-row>
+                            <v-col>
+                                <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4711.614133749156!2d-79.83959854866583!3d-6.772356904702242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cef29c74ae85b%3A0xa7d0b9f7daf53c55!2s7%20de%20Enero%20660%2C%20Chiclayo%2014001!5e0!3m2!1ses-419!2spe!4v1703630584893!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </v-col>
+
+                        </v-row>
+                    </v-card>
+                    
+                </v-col>
+
+
             </v-row>
 
 
             
         </v-sheet>
-
+        <v-divider :thickness="20" class="border-opacity-0"></v-divider>
 
 </template>
 <script>
