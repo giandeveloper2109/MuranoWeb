@@ -7,7 +7,7 @@
 
       <div class="text-h4 font-weight-light mb-n1">Bienvenidos a Murano</div>
 
-      <h1 class="text-h3 font-weight-bold">Estamos en Construcción.</h1>
+      <h1 class="text-h3 font-weight-bold">Estamos en construcción...</h1>
 
       <div class="py-14" />
 

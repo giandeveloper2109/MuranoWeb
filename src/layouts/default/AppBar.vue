@@ -5,7 +5,7 @@
       <router-link to="/">
         <v-img  class="mr-3" src="@/assets/logoMurano.png" height="200px" width="200px"></v-img>
       </router-link>
-      
+
     </div>
     <v-spacer></v-spacer>
     <div>
@@ -13,7 +13,7 @@
     </div>
     <v-divider  :thickness="7" class="border-opacity-0" vertical></v-divider>
     <div>
-      <v-btn to="/contactanos" text style="color: rgb(10, 10, 50);">Contactanos</v-btn>
+      <v-btn to="/contactanos" text style="color: rgb(10, 10, 50);">Contáctanos</v-btn>
     </div>
     <v-divider :thickness="7" class="border-opacity-0" vertical></v-divider>
     <!--

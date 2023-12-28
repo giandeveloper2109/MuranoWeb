@@ -1,10 +1,10 @@
 <template>
 
- 
+
         <v-sheet>
             <v-img src="@/assets/logoMurano.png" max-height="100"></v-img>
 
-                
+
             <v-row>
                 <v-col class="d-flex align-center justify-center">
                     <v-card  @click="redirectToPhone"
@@ -12,19 +12,19 @@
                         width="250"
                         style="background-color: #000744;color: rgb(255, 255, 255);;"
                         class="d-flex align-center justify-center"
-                        
+
                     >
                         <v-row>
                             <v-col>
                                 <v-divider :thickness="20" class="border-opacity-0" vertical></v-divider>
                                 <v-icon class="icon-size" icon="mdi-phone"></v-icon>
                                 <v-divider :thickness="10" class="border-opacity-0" vertical></v-divider>
-                                <span>Telefono (074) 600 993</span>
+                                <span>(074) 600 993</span>
                             </v-col>
 
                         </v-row>
                     </v-card>
-                    
+
                 </v-col>
 
 
@@ -34,7 +34,7 @@
                         width="250"
                         style="background-color: #000744;color: rgb(255, 255, 255);;"
                         class="d-flex align-center justify-center"
-                        
+
                     >
                         <v-row>
                             <v-col>
@@ -46,17 +46,17 @@
 
                         </v-row>
                     </v-card>
-                    
+
                 </v-col>
 
 
                 <v-col class="d-flex align-center justify-center">
-                    <v-card  
+                    <v-card
                         height="70"
                         width="250"
                         style="background-color: #000744;color: rgb(255, 255, 255);;"
                         class="d-flex align-center justify-center"
-                        
+
                     >
                         <v-row>
                             <v-col>
@@ -68,7 +68,7 @@
 
                         </v-row>
                     </v-card>
-                    
+
                 </v-col>
 
 
@@ -78,7 +78,7 @@
                         width="250"
                         style="background-color: #000744;color: rgb(255, 255, 255);;"
                         class="d-flex align-center justify-center"
-                        
+
                     >
                         <v-row>
                             <v-col>
@@ -90,16 +90,16 @@
 
                         </v-row>
                     </v-card>
-                    
+
                 </v-col>
 
 
                 <v-col class="d-flex align-center justify-center">
-                    <v-card  
+                    <v-card
                         height="250"
                         width="400"
 
-                        
+
                     >
                         <v-row>
                             <v-col>
@@ -110,14 +110,14 @@
 
                         </v-row>
                     </v-card>
-                    
+
                 </v-col>
 
 
             </v-row>
 
 
-            
+
         </v-sheet>
         <v-divider :thickness="20" class="border-opacity-0"></v-divider>
 
@@ -138,12 +138,12 @@ export default {
     redirectMail () {
   window.location.href = `mailto:info@muranoin.com`;
 }
-    
+
   }
 }
 </script>
 <style>
   .icon-size {
-    font-size: 40px; 
+    font-size: 40px;
   }
 </style>
