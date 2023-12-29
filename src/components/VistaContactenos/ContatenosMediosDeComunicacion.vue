@@ -97,7 +97,7 @@
                 <v-col class="d-flex align-center justify-center">
                     <v-card
                         height="250"
-                        width="400"
+                        width="550"
 
 
                     >
